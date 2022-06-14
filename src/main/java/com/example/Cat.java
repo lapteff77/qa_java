@@ -11,7 +11,6 @@ public class Cat {
     }
 
     public Cat() {
-
     }
 
     public String getSound() {
@@ -21,5 +20,4 @@ public class Cat {
     public List<String> getFood() throws Exception {
         return predator.eatMeat();
     }
-
 }
